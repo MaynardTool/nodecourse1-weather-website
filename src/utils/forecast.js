@@ -16,9 +16,9 @@ const forecast = (latitude, longitude, callback) => {
           body.currently.temperature +
           " degrees out. There is a " +
           body.currently.precipProbability +
-          "% chance of rain." +
+          "% chance of rain. " +
           body.daily.data[0].temperatureHigh +
-          " is the high temperature." +
+          " is the high temperature. " +
           body.daily.data[0].temperatureLow +
           " is the low temperature."
       );
